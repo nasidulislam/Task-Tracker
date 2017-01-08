@@ -1,0 +1,90 @@
+html, body, col, div, header, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  vertical-align: baseline; }
+
+body {
+  min-height: auto;
+  width: 100%;
+  color: #1b1b1b;
+  font-family: Helvetica Neue, sans-serif;
+  background-color: #1b1b1b; }
+
+header {
+  padding: 32px 20px 32px 20px;
+  border-top: 16px solid #e2e2e2;
+  border-left: 16px solid #e2e2e2;
+  border-right: 16px solid #e2e2e2; }
+  header h1, header h2 {
+    margin: 0; }
+  header h2 {
+    color: #888; }
+
+table {
+  padding: 4px;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border: 6px solid #ddd; }
+
+td {
+  padding: 10px; }
+
+tr:nth-child(even) {
+  background-color: #ddd; }
+
+td:nth-child(odd) {
+  font-weight: 800; }
+
+#container {
+  height: 638px;
+  width: 800px;
+  margin: 32px auto;
+  background-color: #f0f0f0; }
+
+#container:after {
+  clear: both; }
+
+.cards {
+  padding: 24px 20px 20px 20px;
+  width: 42.5%;
+  min-height: 410px;
+  position: relative;
+  background-color: #fff; }
+  .cards h2 {
+    font-family: Constantia, sans-serif; }
+
+.cards-left {
+  float: left;
+  border-left: 16px solid #f0f0f0; }
+
+.cards-right {
+  float: right;
+  border-right: 16px solid #f0f0f0; }
+
+input[type="date"],
+input[type="text"] {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 20px;
+  margin: 5px 1px 3px 0px;
+  padding: 9px;
+  width: 95%;
+  background-color: #ececec; }
+
+label {
+  font-weight: 500; }
+
+button {
+  border: 1px solid #434343;
+  border-radius: 4px;
+  font-family: Constantia, sans-serif;
+  font-size: 20px;
+  margin-bottom: 8px;
+  padding: 9px;
+  color: #fff;
+  background-color: #434343; }
+
+/*# sourceMappingURL=stylesheet.css.map */

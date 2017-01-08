@@ -1,0 +1,114 @@
+@import "variables";
+
+html, body, col, div, header, table, tr, th, td
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  vertical-align: baseline;
+}
+
+body {
+  min-height: auto;
+  width: 100%;
+  color: $brand-black;
+  font-family: Helvetica Neue, sans-serif;
+  background-color: $brand-black;
+}
+
+header {
+  padding: 32px 20px 32px 20px;
+
+  border-top: 16px solid $border-header;
+  border-left: 16px solid $border-header;
+  border-right: 16px solid $border-header;
+
+  h1, h2 {
+    margin: 0;
+  }
+
+  h2 {
+    color: $brand-header-medium;
+  }
+}
+
+table {
+  padding: 4px;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+
+  border: 6px solid $brand-gray-dark;
+}
+
+td {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: $brand-gray-dark;
+}
+
+td:nth-child(odd) {
+  font-weight: 800;
+}
+
+#container {
+  height: 638px;
+  width: 800px;
+  margin: 32px auto;
+  background-color: $container-gray;
+}
+
+#container:after {
+  clear: both;
+}
+
+.cards {
+  padding: 24px 20px 20px 20px;
+  width: 42.5%;
+  min-height: 410px;
+  position: relative;
+  background-color: $brand-white;
+
+  h2 {
+    font-family: Constantia, sans-serif;
+  }
+}
+
+.cards-left {
+  float: left;
+  border-left: 16px solid $brand-gray-light;
+}
+
+.cards-right {
+  float: right;
+  border-right: 16px solid $brand-gray-light;
+}
+
+input[type="date"],
+input[type="text"] {
+  border: 1px solid $brand-gray-dark;
+  border-radius: 4px;
+  font-size: 20px;
+  margin: 5px 1px 3px 0px;
+  padding: 9px;
+  width: 95%;
+  background-color: $brand-input-gray;
+}
+
+label {
+  font-weight: 500;
+}
+
+button {
+  border: 1px solid $brand-button-black;
+  border-radius: 4px;
+  font-family: Constantia, sans-serif;
+  font-size: 20px;
+  margin-bottom: 8px;
+  padding: 9px;
+  color: $brand-white;
+  background-color: $brand-button-black;
+}
