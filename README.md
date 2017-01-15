@@ -11,4 +11,4 @@ As part of the interview process for Abercrombie and Fitch, the vendor company I
 IMPORTANT: This must be completed using jQuery or vanilla Javascript - no other JS frameworks may be used.  Also, do not use any CSS frameworks (e.g. BOOTSTRAP)
 Without using BOOTSTRAP do styling in your own CSS with the help of SASS and make it eye catching
 
-
+![Alt text](/Task-Tracker/design.png?raw=true "Optional Title")
